@@ -1,0 +1,129 @@
+body {
+    margin: auto;
+    height: 100%;
+}
+
+
+#music {
+    border-top-style: ridge;
+    border-top-color: #B114DE;
+    border-top-width: 20px;
+    background-color: white;
+    background-image: url("../images/guitar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 1024px;
+
+}
+
+#music p{
+    color: #B114DE;
+    font-size: 6vw;
+    font-family: "Pacifico", cursive;
+    padding-bottom: 0;
+}
+
+p.left {
+    position: static;
+    float: left;
+    padding-left: 100px;
+}
+
+p.right{
+    position: static;
+    right: 60%;
+    float: right;
+    display: inline-block;
+    padding-right: 100px;
+    padding-top: 400px;
+}
+
+
+
+#mic {
+    position: relative;
+    height: 30vh;
+    margin: auto;
+    background: #4B085E;
+    float: left;
+    width:100%;
+    display: inline-block;
+    
+    border-top: 10px solid #B114DE;
+    border-bottom: 10px solid #B114DE;
+}
+
+
+#mic img{
+    left: 50vw;
+    position: relative;
+    height: 30vh;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#mic_text {
+    height: 30vh;
+    display: inline-block;
+    position: absolute;
+    right: 49vw;
+    padding-bottom: 30px;
+    font-size: 0.9vw;
+}
+
+
+#mic_text h1{
+    color: white;
+    font-family: 'Shrikhand', cursive;
+}
+
+#mic_text h2 {
+    color: #A3A3A3;
+    font-size: 150%;
+    
+}
+
+#upcoming{
+    background-image: url("../images/looking.jpeg");
+    background-size: cover;
+    height: 1024px;
+    padding-left: 30px;
+}
+
+#upcoming h1 {
+    padding-top: 30px;
+    font-size: 700%;
+    color: black;
+    padding-bottom: 0;
+    
+}
+
+#upcoming p {
+
+	color: #000000;
+	background-color: #FFFFFF;
+    padding: 1%;
+	
+	border-style: solid;
+	border-image: linear-gradient(to bottom left, #B114DE, #4B085E) 50;
+	border-width: 15px;
+	
+	font-size: 2vw;
+	text-align: left;
+	width: 15em;
+    height: 3em;
+	float: left;
+}
+
+#upcoming a:link {
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+}
+
+#upcoming a:hover {
+    color: #4B085E;
+    text-transform: uppercase;
+}
+

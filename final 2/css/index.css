@@ -1,0 +1,71 @@
+
+
+#info{
+	
+}
+
+#info h1{
+	color: #FFFFFF;
+	font-size: 400%;
+	text-align: center;
+	padding-top: 5%;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#info p{
+	color: #FFFFFF;
+	margin-left: 15%;
+	margin-right: 15%;
+	
+	font-size: 200%;
+	text-align: center;
+	height: 450px;
+	overflow: auto;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#events {
+	border-style: solid;
+	border-color: #B114DE;
+	border-top-width: 30px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+
+	background-image: url('../images/EventsGuitar.jpg');
+	background-color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+#coffee {
+	border-style: solid;
+	border-color: #B114DE;
+	border-top-width: 30px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+
+	background-image: url("../images/coffee.jpg");
+	background-color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+#story {
+	border-style: solid;
+	border-color: #B114DE;
+	border-top-width: 30px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+
+    background-image: url('../images/counter.jpg');
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
